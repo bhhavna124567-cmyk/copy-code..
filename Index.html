@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhavna's Project Website</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 80px 20px;
+}
+
+h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 30px;
+    background: white;
+    color: #ff4f81;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff4f81;
+    color: white;
+}
+
+.section {
+    padding: 40px 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.25);
+    margin: 20px auto;
+    padding: 25px;
+    width: 75%;
+    border-radius: 18px;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background: rgba(0,0,0,0.3);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Welcome to My Website</h1>
+    <p>This is my individual project for App & Web Designing.</p>
+    <button class="btn" onclick="greet()">Explore</button>
+</header>
+
+<div class="section">
+    <div class="card">
+        <h2>About This Project</h2>
+        <p>This website is created using HTML for structure, CSS for styling, and JavaScript for basic interaction.</p>
+    </div>
+
+    <div class="card">
+        <h2>Created By</h2>
+        <p>Bhavna</p>
+    </div>
+
+    <div class="card">
+        <h2>Project Objective</h2>
+        <p>To design a simple, responsive and attractive website as part of my academic assignment.</p>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Bhavna | Individual Project</p>
+</footer>
+
+<script>
+function greet() {
+    alert("Hello! This website is created by Bhavna 😊");
+}
+</script>
+
+</body>
+</html>
